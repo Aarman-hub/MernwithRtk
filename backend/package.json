@@ -4,7 +4,7 @@
   "description": "A backend apis project with node express mongoose",
   "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    "start": "nodemon server.js"
   },
   "keywords": [
     "npm",
@@ -14,6 +14,7 @@
   "author": "Arman",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "dotenv": "^16.0.0",
     "express": "^4.18.1",
     "joi": "^17.6.0",
