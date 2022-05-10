@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A backend apis project with node express mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "keywords": [
+    "npm",
+    "start",
+    "nodemone"
+  ],
+  "author": "Arman",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}
